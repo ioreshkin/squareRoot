@@ -1,8 +1,4 @@
 import React from "react";
-import ruSrc from '../../images/ruFlag.jpg';
-import enSrc from '../../images/enFlag.png';
-import chSrc from "../../images/chFlag.jpg";
-import spSrc from "../../images/spFlag.png";
 import cl from './langSelector.module.css';
 
 const LangSelector = ( children ) => {
