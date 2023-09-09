@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/squareRoot/static/css/main.e077b4c4.css",
+    "main.js": "/squareRoot/static/js/main.2dd02163.js",
+    "index.html": "/squareRoot/index.html",
+    "main.e077b4c4.css.map": "/squareRoot/static/css/main.e077b4c4.css.map",
+    "main.2dd02163.js.map": "/squareRoot/static/js/main.2dd02163.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e077b4c4.css",
+    "static/js/main.2dd02163.js"
+  ]
+}
