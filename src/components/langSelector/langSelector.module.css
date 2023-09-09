@@ -1,0 +1,16 @@
+.langSelector {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.elem {
+    cursor: pointer;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.selected {
+    color: red;
+}
