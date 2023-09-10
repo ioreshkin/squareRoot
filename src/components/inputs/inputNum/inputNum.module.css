@@ -1,0 +1,27 @@
+.inputNum {
+    display: flex;
+}
+
+.inputNum input {
+    background: linear-gradient(to right, rgb(0,178,255), rgb(239,218,28));
+    padding: 15px 55px 15px 30px;
+    border-radius: .8em;
+    width: 100%;
+    font-size: 36px;
+    margin-top: 30px;
+    color: white;
+}
+
+.inputNum input::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.inputNum img {
+    position: relative;
+    right: 52px;
+    top: 47px;
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
+}

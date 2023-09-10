@@ -1,16 +1,13 @@
-.langSelector {
-    width: 400px;
+
+.info {
     display: flex;
     justify-content: space-around;
+    width: 500px;
     margin-bottom: auto;
     margin-top: auto;
 }
 
-.elem {
-    cursor: pointer;
-
-}
-
-.selected {
-    font-weight:700;
+a {
+    text-decoration: none;
+    color: white;
 }

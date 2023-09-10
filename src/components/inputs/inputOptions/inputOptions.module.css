@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.input {
+    padding: 13px 25px;
+    font-size: 20px;
+    color: white;
+    border-radius: 1em;
+    width: 211px;
+}
+
+.acc {
+    border: solid rgb(189, 255, 0) 2px;
+    margin-top: 40px;
+    
+}
+
+.acc::placeholder {
+    color: rgb(189, 255, 0);
+    opacity: 1;
+}
+
+.deg {
+    border: solid rgb(0, 255, 194) 2px;
+}
+
+.deg::placeholder {
+    color: rgb(0, 255, 194);
+    opacity: 1;
+}

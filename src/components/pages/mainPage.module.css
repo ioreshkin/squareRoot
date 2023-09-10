@@ -1,0 +1,73 @@
+body {
+    color: white;
+}
+
+.content {
+    width: 800px;
+    margin: auto;
+}
+
+nav {
+    margin-top: 45px;
+    height: 115px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+nav img {
+    width: 200px;
+    height: 120px;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-shadow: 
+    3px 3px 0px black,
+    -3px -3px 0px black;
+    font-size: 78px;
+}
+
+.calc {
+     display: flex;
+     
+}
+
+.numpad {
+     display: flex;
+     flex-direction: column;
+     margin-left: 80px;
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    margin-bottom: 35px;
+}
+
+.info {
+    margin-bottom: 70px;
+}
+
+.info span {
+    text-shadow: 
+    3px 3px 0px black,
+    -3px -3px 0px black;
+    font-size: 64px;
+}
+
+.infoRow {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 25px 0 ;
+}
+
+.infoBox img {
+    height: 64px;
+}
