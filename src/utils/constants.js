@@ -1,4 +1,22 @@
+import ruAn from "../images/boxes/ruAn.png";
+import ruAr from "../images/boxes/ruAr.png";
+import ruLo from "../images/boxes/ruLo.png";
+import ruCo from "../images/boxes/ruCo.png";
 
+import enAn from "../images/boxes/enAn.png";
+import enAr from "../images/boxes/enAr.png";
+import enLo from "../images/boxes/enLo.png";
+import enCo from "../images/boxes/enCo.png";
+
+import spAn from "../images/boxes/spAn.png";
+import spAr from "../images/boxes/spAr.png";
+import spLo from "../images/boxes/spLo.png";
+import spCo from "../images/boxes/spCo.png";
+
+import chAn from "../images/boxes/chAn.png";
+import chAr from "../images/boxes/chAr.png";
+import chLo from "../images/boxes/chLo.png";
+import chCo from "../images/boxes/chCo.png";
 
 
 
@@ -7,10 +25,21 @@
 export const en = {
     code: "en",
     supLink : "https://docs.google.com/forms/d/e/1FAIpQLSdJYGMix3DBwbCi3gw-uhHTUrM0VLeBHuu4G1rB2RXlilJ44Q/viewform",
+
+    an: enAn,
+    ar: enAr,
+    lo: enLo,
+    co: enCo,
+
     infoDoc : "Documentation",
     infoSup : "Support",
     infoAbt : "About",
     infoUpd : "Updates",
+
+    mainT1: "Simplify!",
+    mainT2: "Finding any root!",
+    mainT3: "SquareRoot can calculate the following types of roots:",
+
 
     docT1: "PROGRAM DOCUMENTATION SQUARE ROOT PROJECT",
     docT2: "Here is the user manual and description of the program",
@@ -41,10 +70,11 @@ export const en = {
     abtT1 : "Greetings!",
     abtT2 : "We are a group of enthusiasts who have created this tool. The main purpose of this site is to provide a handy calculator for general use.",
     abtT3 : "Our product is written entirely in JavaScript using React.js framework. The design was entirely developed by our team. Almost all descriptive content was written in-house, with a small amount of content taken from various sources.",
-    abtT4 : "This site is owned and operated by the Square Root Project group. Our email is sqrtprjctspprt@gmail.com.",
+    abtT4 : "This site is owned and operated by the Square Root Project group. Our email is ",
 
     supT1: "Dear user, if you have any problems while using the calculator, you can use our mailbox for feedback.",
-    supT2: "In addition, you can fill in the form.",
+    supT2: "In addition, you can fill in the ",
+    supT3: "form",
 
     updT1: "Dear users!",
     uptT2: "We are pleased to inform you that our calculator works stably and without failures. We are constantly working on improving its functionality and design. At the moment we do not release new updates. Thank you for your support and trust!",
@@ -62,6 +92,15 @@ export const ru = {
     infoSup : "Поддержка",
     infoAbt : "О нас",
     infoUpd : "Обновления",
+
+    an: ruAn,
+    ar: ruAr,
+    lo: ruLo,
+    co: ruCo,
+
+    mainT1: "Упрости",
+    mainT2: "нахождение любого корня!",
+    mainT3: "SquareRoot может вычислять  корни следующих типов:",
 
 
     docT1: "ДОКУМЕНТАЦИЯ ПРОГРАММЫ SQUARE ROOT PROJECT",
@@ -93,10 +132,11 @@ export const ru = {
     abtT1 : "Приветствуем!",
     abtT2 : "Мы - группа энтузиастов, создавших данный инструмент. Основная цель этого сайта - предоставить удобный калькулятор для общего пользования.",
     abtT3 : "Наш продукт полностью написан на языке JavaScript с использованием фреймвормка React.js. Оформление было полностью разработано нашей командой. Почти весь описательный контент был написан собственными силами, небольшое количество материалов было взято с открытых источников.",
-    abtT4 : "Данный сайт принадлежит и управляется группой Square Root Project. Наша почта sqrtprjctspprt@gmail.com.",
+    abtT4 : "Данный сайт принадлежит и управляется группой Square Root Project. Наша почта ",
 
     supT1: "Уважаемый пользователь, если у вас возникли проблемы при использовании калькулятора, то вы можете использовать наш почтовый ящик для обратной связи.",
-    supT2: "Помимо этого, вы можете заполнить форму.",
+    supT2: "Помимо этого, вы можете заполнить ",
+    supT3: "форму",
 
     updT1: "Уважаемые пользователи!",
     uptT2: "Мы рады сообщить вам, что наш калькулятор работает стабильно и без сбоев. Мы постоянно работаем над улучшением его функциональности и дизайна. На данный момент мы не выпускаем новых обновлений. Спасибо за вашу поддержку и доверие!",
@@ -117,6 +157,15 @@ export const sp = {
     infoSup: "Ayuda",
     infoAbt: "Quiénes somos",
     infoUpd: "Actualizaciones",
+
+    an: spAn,
+    ar: spAr,
+    lo: spLo,
+    co: spCo,
+
+    mainT1: "Simplifica",
+    mainT2: "encontrar cualquier raíz!",
+    mainT3: "SquareRoot puede calcular raíces de los siguientes tipos:",
 
     docT1: "DOCUMENTACIÓN DEL PROGRAMA PROYECTO RAÍZ CUADRADA",
     docT2: "Aquí está el manual de usuario y la descripción del programa",
@@ -147,10 +196,11 @@ export const sp = {
     abtT1: "Saludos!",
     abtT2: "Somos un grupo de entusiastas que hemos creado esta herramienta. El objetivo principal de este sitio es proporcionar una calculadora práctica para uso general.",
     abtT3: "Nuestro producto está totalmente escrito en JavaScript utilizando React.js framefork. El diseño fue desarrollado enteramente por nuestro equipo. Casi todo el contenido descriptivo fue escrito internamente, con una pequeña cantidad de material tomado de diversas fuentes.",
-    abtT4: "Este sitio es propiedad y está operado por el grupo Square Root Project. Nuestro correo electrónico es sqrtprjctspprt@gmail.com.",
+    abtT4: "Este sitio es propiedad y está operado por el grupo Square Root Project. Nuestro correo electrónico es ",
 
     supT1: "Estimado usuario, si tiene problemas al utilizar la calculadora, puede utilizar nuestro buzón de comentarios.",
-    supT2: "Además, puede rellenar el formulario.",
+    supT2: "Además, puede rellenar el ",
+    supT3: "formulario",
 
     updT1: "Estimados usuarios!",
     uptT2: "Nos complace informarles de que nuestra calculadora funciona de forma estable y sin fallos. Trabajamos constantemente para mejorar su funcionalidad y diseño. Por el momento no lanzamos nuevas actualizaciones. Gracias por su apoyo y confianza!",
@@ -172,6 +222,15 @@ export const ch = {
     infoSup: "支持",
     infoAbt: "关于我们",
     infoUpd: "更新",
+
+    an: chAn,
+    ar: chAr,
+    lo: chLo,
+    co: chCo,
+
+    mainT1: "简化",
+    mainT2: "找到任何根源!",
+    mainT3: "平方根可以计算以下类型的根:",
 
     docT1: "计划文件 平方根项目",
     docT2: "以下是用户手册和程序说明",
@@ -202,10 +261,12 @@ export const ch = {
     abtT1: "欢迎!",
     abtT2: "我们是一群创建此工具的爱好者。本网站的主要目的是提供一个方便使用的计算器。",
     abtT3: "我们的产品完全由 JavaScript 使用 React.js 框架编写。设计完全由我们的团队开发。几乎所有描述性内容都是内部编写的，少量材料来自各种来源。",
-    abtT4: "本网站由平方根项目组拥有和运营。我们的电子邮件地址是 sqrtprjctspprt@gmail.com.",
+    abtT4: "本网站由平方根项目组拥有和运营。我们的电子邮件地址是 ",
 
     supT1: "亲爱的用户，如果您在使用计算器过程中遇到任何问题，都可以通过电子邮件向我们提出反馈意见。",
-    supT2: "或者，您也可以填写表格。",
+    supT2: "或者，您也可以填写表格 ",
+    supT3: "格",
+
 
     updT1: "亲爱的用户!",
     uptT2: "我们很高兴地通知您，我们的计算器运行稳定，没有出现任何故障。我们正在不断改进计算器的功能和设计。目前，我们没有发布新的更新。感谢您的支持和信任！",
@@ -220,23 +281,18 @@ export const getLang = (code) => {
     switch (code) {
         case "ru":
             return ru;
-            break;
 
         case "en":
             return en;
-            break; 
 
         case "sp":
             return sp;
-            break; 
 
         case "ch":
             return ch;
-            break;
  
         
         default:
             return ru;
-            break;
     }
 }

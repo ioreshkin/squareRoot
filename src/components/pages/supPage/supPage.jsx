@@ -26,9 +26,7 @@ const SupPage = () => {
     let lang = getLang(langCode)
 
     return (
-        <div>
-
-            <div className={cl.content}>
+        <div className={cl.supPage}>
 
                 <nav>
                     <Links lang = {getLang(langCode)}/>
@@ -40,14 +38,17 @@ const SupPage = () => {
                     <LangSelector lang={getLang(langCode)} setLang={switchLang}/>    
                 </nav>
 
-                <div>
+            <div className={cl.content}>
+                
+                <div className={cl.box}>
                     <span>{lang.supT1} </span>
                     <span className={cl.link}>sqrtprjctspprt@gmail.com</span>
                 </div>
 
                 <div>
                     <span>{lang.supT2}</span>
-                    <a  href={lang.supLink} target="_blank">form</a>
+
+                    <a  href={lang.supLink} target="_blank" className={cl.link}>{lang.supT3} </a>
                 </div>
             </div>
 

@@ -1,8 +1,14 @@
+.aboutPage {
+    color: white;
+    
+}
+
 .content {
     margin-left: 100px;
     font-family: sans-serif;
     margin-top: 30px;
 }
+
 
 .content h2 {
     margin: 20px 0;
@@ -13,5 +19,15 @@
 
 .content p {
     margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.content span {
+    font-size: 30px;
+}
+
+
+.link {
+    color:blue;
     font-size: 30px;
 }

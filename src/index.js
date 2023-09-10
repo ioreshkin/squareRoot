@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import DocsPage from './components/pages/docsPage/docsPage';
-import AbtPage from './components/pages/abtPage/abtPage';
 import SupPage from './components/pages/supPage/supPage';
 import UpdPage from './components/pages/updPage/updPage';
+import AboutPage from './components/pages/aboutPage/aboutPage';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "squareRoot/about",
-    element: <AbtPage/>
+    element: <AboutPage/>
   },
   {
     path: "squareRoot/support",

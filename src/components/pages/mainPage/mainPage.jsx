@@ -2,12 +2,11 @@ import React from "react";
 import cl from "./mainPage.module.css";
 import Links from "../../info/links";
 import LangSelector from "../../langSelector/langSelector";
-import { bignumber, complex, forEach, format, nthRoot, sqrt } from "mathjs";
+import { bignumber, complex, format, nthRoot, sqrt } from "mathjs";
 import { getLang } from "../../../utils/constants";
 import { useState } from "react";
 import logoSrc  from "../../../images/logo.png";
 import InputNum from "../../inputs/inputNum/inputNum";
-import Footer from "../../footer/footer";
 import InputOptions from "../../inputs/inputOptions/inputOptions";
 import NumButton from "../../buttons/numButton";
 import Src1 from "../../../images/1.png"
@@ -22,10 +21,6 @@ import Src9 from "../../../images/9.png"
 import Src0 from "../../../images/0.png"
 import Srcb from "../../../images/b.png"
 import Srcc from "../../../images/c.png"
-import coSrc from "../../../images/co.png";
-import loSrc from "../../../images/lo.png";
-import anSrc from "../../../images/an.png";
-import arSrc from "../../../images/ar.png";
 
 
 const MainPage = () => {
@@ -38,8 +33,6 @@ const MainPage = () => {
     const [deg, setDeg] = useState(2)
   
     const [acc, setAcc] = useState(5)
-  
-    const [ans, setAns] = useState()
   
     const switchLang = (newLang) => {
       setLangCode(newLang);
@@ -68,6 +61,8 @@ const MainPage = () => {
     const backNum = (sym) => {
       setNum(num.toString().slice(0,-1))
     }
+
+    const lang = getLang(langCode);
   
 
     const calculate = () => {
@@ -161,8 +156,8 @@ const MainPage = () => {
 
         <div className={cl.content}>
           <div className={cl.slogan}>
-              <span>Simplify</span>
-              <span>Finding any root!</span>
+              <span>{lang.mainT1}</span>
+              <span>{lang.mainT2}</span>
           </div>
 
           <InputNum calculate={calculate} setNum={changeNum} num={num}/>
@@ -201,15 +196,15 @@ const MainPage = () => {
               
 
           <div className={cl.info}>
-              <span>SquareRoot can calculate the following types of roots:</span> 
+              <span>{lang.mainT3}</span> 
               <div className={cl.infoRow}>
-                <div className={cl.infoBox}><img src={arSrc} alt="" /></div>
-                <div className={cl.infoBox}><img src={loSrc} alt="" /></div>
+                <div className={cl.infoBox}><img src={lang.ar} alt="" /></div>
+                <div className={cl.infoBox}><img src={lang.an} alt="" /></div>
               </div>
 
               <div className={cl.infoRow}>
-                  <div className={cl.infoBox}><img src={loSrc} alt="" /></div>
-                  <div className={cl.infoBox}><img src={coSrc} alt="" /></div>
+                  <div className={cl.infoBox}><img src={lang.lo} alt="" /></div>
+                  <div className={cl.infoBox}><img src={lang.co} alt="" /></div>
                </div> 
           </div>     
               

@@ -1,6 +1,5 @@
 import React from "react";
 import cl from "./links.module.css";
-import {ruInfoDoc, enInfoDoc, spInfoDoc, chInfoDoc, ruInfoSup, enInfoSup, spInfoSup, chInfoSup, ruInfoAbt, enInfoAbt, spInfoAbt, chInfoAbt, ruInfoUpd, enInfoUpd, spInfoUpd, chInfoUpd, ruSupportLink, enSupportLink, spSupportLink, chSupportLink} from "../../utils/constants";
 import { Link } from "react-router-dom";
 
 const Links = ({lang}) => {

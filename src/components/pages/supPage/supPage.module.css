@@ -1,0 +1,26 @@
+.supPage {
+    color: white;
+    
+}
+
+.content {
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+
+.content span {
+    font-size: 30px;
+}
+
+.content .box {
+    margin-bottom: 30px;
+    
+}
+
+
+.link {
+    color:blue;
+    font-size: 30px;
+}

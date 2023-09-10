@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import MainPage from "./components/pages/mainPage/mainPage";
 import "./reset.css"
-import DocsPage from "./components/pages/docsPage/docsPage";
-import AbtPage from "./components/pages/abtPage/abtPage";
+
 
 function App() {
 

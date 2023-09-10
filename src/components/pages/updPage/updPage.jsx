@@ -38,11 +38,15 @@ const UpdPage = () => {
                 <LangSelector lang={getLang(langCode)} setLang={switchLang}/>    
             </nav>
 
-            <h2>{lang.updT1}</h2>
+            <div className={cl.content }>
+                <h2>{lang.updT1}</h2>
 
-            <p>{lang.uptT2}</p>
+                <p>{lang.uptT2}</p>
 
-            <p>{lang.updT3}</p>
+                <p>{lang.updT3}</p>
+            </div>
+
+            
 
             <Footer/>
 

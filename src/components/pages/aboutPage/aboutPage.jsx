@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import cl from "./abtPage.module.css"
+import cl from "./aboutPage.module.css";
 import logoSrc  from "../../../images/logo.png";
 import Links from "../../info/links";
 import LangSelector from "../../langSelector/langSelector";
 import { getLang } from "../../../utils/constants";
 import Footer from "../../footer/footer";
 
-const AbtPage = () => {
+const AboutPage = () => {
 
     let defaultLang = "";
 
@@ -26,7 +26,7 @@ const AbtPage = () => {
     let lang = getLang(langCode)
 
     return (
-        <div>
+        <div className={cl.aboutPage}>
 
             <nav>
                 <Links lang = {getLang(langCode)}/>
@@ -46,7 +46,8 @@ const AbtPage = () => {
 
                 <p>{lang.abtT3}</p>
 
-                <p>{lang.abtT4}</p>
+                <span>{lang.abtT4}</span>
+                <span className={cl.link}>sqrtprjctspprt@gmail.com</span>
 
 
             </div>
@@ -58,4 +59,4 @@ const AbtPage = () => {
     )
 }
 
-export default AbtPage;
+export default AboutPage;
