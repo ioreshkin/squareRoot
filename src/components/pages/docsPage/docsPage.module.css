@@ -1,0 +1,26 @@
+.docsPage {
+    color: white;
+}
+
+.content {
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.docsPage h2 {
+    margin: 20px 0;
+    display: inline-block;
+    font-size: 32px;
+}
+
+.docsPage p {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.docsPage ul {
+    margin-top: -20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 26px;
+}

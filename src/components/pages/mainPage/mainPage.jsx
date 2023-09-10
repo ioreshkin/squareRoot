@@ -73,6 +73,14 @@ const MainPage = () => {
     const calculate = () => {
         let curAns = 0;
         let errorText = ""; 
+
+        if (deg == "") {
+          setDeg(2);
+        }
+
+        if (acc == "") {
+          setAcc(5);
+        }
     
         if (num > 0) {
           let a = bignumber(num);     
@@ -94,22 +102,19 @@ const MainPage = () => {
           } else if (deg == 2) {
             curAns = sqrt(num).toString();
           } else {
-            errorText= "Значение не определено(только из второй и нечетных степеней)";
+            errorText= "Error";
           }
         }
-       
     
         let isPlusMinus = false;    
     
         if (curAns[0] == "±") {
           isPlusMinus = true;
-          curAns = curAns.slice(2)
-    
+          curAns = curAns.slice(2) 
         }    
         
         if (errorText == "") {
           if (acc == '0') {
-
             if (curAns[curAns.length-1] == "i") {
               curAns = complex(Math.round(curAns.toString().slice(0,-1)))
               if (curAns == "1") {
@@ -119,9 +124,7 @@ const MainPage = () => {
               }
             } else {
                curAns = bignumber(Math.round(curAns.toString())) 
-            }
-    
-            
+            }    
             
           } else { 
             if (curAns[curAns.length-1] == "i") { 
@@ -131,25 +134,20 @@ const MainPage = () => {
               let a = curAns.toString().slice(0,curAns.toString().indexOf('.')); 
               curAns = format(bignumber(curAns), Number(acc)+Number(a.length));
             }
-    
           }
         } else {
             curAns = errorText;
         }
-        
           if (isPlusMinus) {
             curAns = "± " + curAns; 
-          }
-
-        
-        setNum(curAns);
-        
+          }   
+        setNum(curAns);       
     }    
     
 
 
     return (
-    <div>  
+    <div  className={cl.mainPage}>  
 
         <nav>
             <Links lang = {getLang(langCode)}/>
@@ -217,7 +215,7 @@ const MainPage = () => {
               
             
 
-           <Footer/> 
+           <p className={cl.footer}>©2023 SQUARE ROOT CALCULATOR sqrtprjctspprt@gmail.com</p>
         </div>
 
         

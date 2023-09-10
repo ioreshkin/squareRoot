@@ -71,3 +71,11 @@ nav img {
 .infoBox img {
     height: 64px;
 }
+
+.footer {
+    position: relative;;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
