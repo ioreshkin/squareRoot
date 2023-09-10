@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/squareRoot/static/css/main.90da3090.css",
-    "main.js": "/squareRoot/static/js/main.1d4cd106.js",
+    "main.css": "/squareRoot/static/css/main.f7bca342.css",
+    "main.js": "/squareRoot/static/js/main.9bc634ff.js",
     "static/media/co.png": "/squareRoot/static/media/co.c6526a52c8bfe98ce321.png",
     "static/media/lo.png": "/squareRoot/static/media/lo.d5ed8f5a9684b128d875.png",
     "static/media/an.png": "/squareRoot/static/media/an.af32d512716e0e024738.png",
     "static/media/ar.png": "/squareRoot/static/media/ar.e11896765c6273d26d69.png",
+    "static/media/3.png": "/squareRoot/static/media/3.59584b7bbc602c6caf09.png",
+    "static/media/6.png": "/squareRoot/static/media/6.a001da70217d29703d7d.png",
+    "static/media/2.png": "/squareRoot/static/media/2.c37bdcd7ac94c13d10d3.png",
+    "static/media/9.png": "/squareRoot/static/media/9.73975217ae0c5942ddac.png",
+    "static/media/8.png": "/squareRoot/static/media/8.5ef440f89a27cc7fedd4.png",
+    "static/media/5.png": "/squareRoot/static/media/5.8716b89382470b3d0264.png",
+    "static/media/7.png": "/squareRoot/static/media/7.0ac34aeda0f523c101d9.png",
+    "static/media/c.png": "/squareRoot/static/media/c.6e82a6d77fb6b29773e4.png",
+    "static/media/1.png": "/squareRoot/static/media/1.f37a4ffc9321aa029cc6.png",
+    "static/media/0.png": "/squareRoot/static/media/0.aaebf4f5b30a1f2f0046.png",
+    "static/media/4.png": "/squareRoot/static/media/4.86cc17c431f91cd95994.png",
     "static/media/logo.png": "/squareRoot/static/media/logo.dc06fc66d9553adeec6b.png",
     "static/media/enter.png": "/squareRoot/static/media/enter.7267641e915499764dbf.png",
-    "static/media/back.png": "/squareRoot/static/media/back.041178a5b11cdcc4813f.png",
+    "static/media/b.png": "/squareRoot/static/media/b.041178a5b11cdcc4813f.png",
     "index.html": "/squareRoot/index.html",
-    "main.90da3090.css.map": "/squareRoot/static/css/main.90da3090.css.map",
-    "main.1d4cd106.js.map": "/squareRoot/static/js/main.1d4cd106.js.map"
+    "main.f7bca342.css.map": "/squareRoot/static/css/main.f7bca342.css.map",
+    "main.9bc634ff.js.map": "/squareRoot/static/js/main.9bc634ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.90da3090.css",
-    "static/js/main.1d4cd106.js"
+    "static/css/main.f7bca342.css",
+    "static/js/main.9bc634ff.js"
   ]
 }
