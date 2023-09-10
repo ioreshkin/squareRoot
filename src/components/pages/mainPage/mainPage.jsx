@@ -1,19 +1,20 @@
 import React from "react";
 import cl from "./mainPage.module.css";
-import Links from "../info/links";
-import LangSelector from "../../components/langSelector/langSelector";
+import Links from "../../info/links";
+import LangSelector from "../../langSelector/langSelector";
 import { bignumber, complex, forEach, format, nthRoot, sqrt } from "mathjs";
-import { getLang } from "../../utils/constants";
+import { getLang } from "../../../utils/constants";
 import { useState } from "react";
-import logoSrc  from "../../images/logo.png";
-import InputNum from "../inputs/inputNum/inputNum";
-import Footer from "../footer/footer";
-import InputOptions from "../inputs/inputOptions/inputOptions";
-import NumButton from "../buttons/numButton";
-import coSrc from "../../images/co.png";
-import loSrc from "../../images/lo.png";
-import anSrc from "../../images/an.png";
-import arSrc from "../../images/ar.png";
+import logoSrc  from "../../../images/logo.png";
+import InputNum from "../../inputs/inputNum/inputNum";
+import Footer from "../../footer/footer";
+import InputOptions from "../../inputs/inputOptions/inputOptions";
+import NumButton from "../../buttons/numButton";
+import sSrc from "../../../images/back.png"
+import coSrc from "../../../images/co.png";
+import loSrc from "../../../images/lo.png";
+import anSrc from "../../../images/an.png";
+import arSrc from "../../../images/ar.png";
 
 
 const MainPage = () => {
@@ -150,32 +151,33 @@ const MainPage = () => {
                 <InputOptions setAcc={changeAcc} setDeg={changeDeg}/>
             </div>
 
+            
 
             <div className={cl.numpad}>
-                <div className={cl.row}>
-                    <NumButton>1</NumButton>
-                    <NumButton>2</NumButton>
-                    <NumButton>3</NumButton>
-                </div>
-                <div className={cl.row}>
-                    <NumButton>4</NumButton>
-                    <NumButton>5</NumButton>
-                    <NumButton>6</NumButton>
-                </div>
-                <div className={cl.row}>
-                    <NumButton>7</NumButton>
-                    <NumButton>8</NumButton>
-                    <NumButton>9</NumButton>
-                </div>
-                <div className={cl.row}>
-                    <NumButton>C</NumButton>
-                    <NumButton>0</NumButton>
-                    <NumButton>↩</NumButton>
-                </div>
-            </div>
+              <div className={cl.row}>
+                  <NumButton imgSrc={sSrc}>1</NumButton>  
+                  <NumButton imgSrc={sSrc}>2</NumButton>
+                  <NumButton imgSrc={sSrc}>3</NumButton>
+                </div>    
+              
+              <div className={cl.row}>
+                  <NumButton imgSrc={sSrc}>4</NumButton>
+                  <NumButton imgSrc={sSrc}>5</NumButton>
+                  <NumButton imgSrc={sSrc}>6</NumButton>
+              </div>
+              <div className={cl.row}>
+                  <NumButton imgSrc={sSrc}>7</NumButton>
+                  <NumButton imgSrc={sSrc}>8</NumButton>
+                  <NumButton imgSrc={sSrc}>9</NumButton>
+              </div>
+              <div className={cl.row}>
+                  <NumButton imgSrc={sSrc}>C</NumButton>
+                  <NumButton imgSrc={sSrc}>0</NumButton>
+                  <NumButton imgSrc={sSrc}>↩</NumButton>
+              </div>
+            </div>  
           </div>
-
-         
+              
 
           <div className={cl.info}>
               <span>SquareRoot can calculate the following types of roots:</span> 
@@ -187,24 +189,18 @@ const MainPage = () => {
               <div className={cl.infoRow}>
                   <div className={cl.infoBox}><img src={loSrc} alt="" /></div>
                   <div className={cl.infoBox}><img src={coSrc} alt="" /></div>
-              </div>
+               </div> 
+          </div>     
               
+            
 
-          </div>
-
-          <Footer/>
+           <Footer/> 
         </div>
 
         
      
        
-      {/* <input type="text" onChange={event => setNum(event.target.value)} placeholder="0" value={num}></input>
-      <input type="number" onChange={event => setDeg(event.target.value)} placeholder="2"></input>
-      <input type="number" onChange={event => setSym(event.target.value)} placeholder="5"></input>
-      <button onClick={() => {setNum(num + "i")}}>i</button>
       
-      <button onClick={() => calculate(num)}>Посчитать</button>
-      <span>ответ: {ans}</span> */}
     </div>  
     )
 }

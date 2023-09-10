@@ -7,8 +7,8 @@ const NumButton = ({children, printNum, imgSrc}) => {
 
     return (
         <div className={cl.but} onClick={() => printNum(children)}>
-            {/* <img src={imgSrc} alt="" /> */}
-            1
+            <img src={imgSrc} alt="" />
+            
         </div>
     )
 }

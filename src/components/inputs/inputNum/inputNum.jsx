@@ -8,7 +8,7 @@ const InputNum = ( {calculate, setNum, num}) => {
 
     return (
         <div className={cl.inputNum}>
-            <input type="text" placeholder="Start typing" onChange={event => setNum(event.target.value)} value={num}/>
+            <input type="text" placeholder="Start typing" onChange={event => {event.target.value=event.target.value.replace(/[^0-9\.\-]/g, ''); setNum(event.target.value);}} value={num}   />
             <img src={enterSrc}  onClick={() => calculate()}/>
         </div>
     )

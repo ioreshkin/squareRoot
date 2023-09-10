@@ -37,9 +37,9 @@ nav img {
 }
 
 .numpad {
-     display: flex;
-     flex-direction: column;
-     margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
     margin-top: 40px;
 }
 
