@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/squareRoot/static/css/main.734ddabc.css",
+    "main.css": "/squareRoot/static/css/main.0e1bd1d6.css",
     "main.js": "/squareRoot/static/js/main.8e344efa.js",
     "static/media/ruAn.png": "/squareRoot/static/media/ruAn.d67ef6e6a6815ad6942a.png",
     "static/media/ruLo.png": "/squareRoot/static/media/ruLo.79836421caf744f34619.png",
@@ -33,11 +33,11 @@
     "static/media/enter.png": "/squareRoot/static/media/enter.7267641e915499764dbf.png",
     "static/media/b.png": "/squareRoot/static/media/b.041178a5b11cdcc4813f.png",
     "index.html": "/squareRoot/index.html",
-    "main.734ddabc.css.map": "/squareRoot/static/css/main.734ddabc.css.map",
+    "main.0e1bd1d6.css.map": "/squareRoot/static/css/main.0e1bd1d6.css.map",
     "main.8e344efa.js.map": "/squareRoot/static/js/main.8e344efa.js.map"
   },
   "entrypoints": [
-    "static/css/main.734ddabc.css",
+    "static/css/main.0e1bd1d6.css",
     "static/js/main.8e344efa.js"
   ]
 }
