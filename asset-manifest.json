@@ -1,11 +1,23 @@
 {
   "files": {
-    "main.css": "/squareRoot/static/css/main.f7bca342.css",
-    "main.js": "/squareRoot/static/js/main.9bc634ff.js",
-    "static/media/co.png": "/squareRoot/static/media/co.c6526a52c8bfe98ce321.png",
-    "static/media/lo.png": "/squareRoot/static/media/lo.d5ed8f5a9684b128d875.png",
-    "static/media/an.png": "/squareRoot/static/media/an.af32d512716e0e024738.png",
-    "static/media/ar.png": "/squareRoot/static/media/ar.e11896765c6273d26d69.png",
+    "main.css": "/squareRoot/static/css/main.455d6109.css",
+    "main.js": "/squareRoot/static/js/main.a1883f31.js",
+    "static/media/ruAn.png": "/squareRoot/static/media/ruAn.d67ef6e6a6815ad6942a.png",
+    "static/media/ruLo.png": "/squareRoot/static/media/ruLo.79836421caf744f34619.png",
+    "static/media/ruAr.png": "/squareRoot/static/media/ruAr.5cb6cf69aca9c0d4bbf2.png",
+    "static/media/ruCo.png": "/squareRoot/static/media/ruCo.3b7257ef9237358c08fd.png",
+    "static/media/spCo.png": "/squareRoot/static/media/spCo.64af361d7d2965edd5fc.png",
+    "static/media/chCo.png": "/squareRoot/static/media/chCo.c59ef87ed38508d1f0d7.png",
+    "static/media/chAn.png": "/squareRoot/static/media/chAn.b1581ec0319ac3b19266.png",
+    "static/media/chAr.png": "/squareRoot/static/media/chAr.3086bbc6e30f1e336e2c.png",
+    "static/media/chLo.png": "/squareRoot/static/media/chLo.969e719880cfcccc0319.png",
+    "static/media/enCo.png": "/squareRoot/static/media/enCo.c6526a52c8bfe98ce321.png",
+    "static/media/spLo.png": "/squareRoot/static/media/spLo.6c8f1c8cb7128e3cec3b.png",
+    "static/media/enLo.png": "/squareRoot/static/media/enLo.d5ed8f5a9684b128d875.png",
+    "static/media/spAn.png": "/squareRoot/static/media/spAn.8b7c10a968749306f6ae.png",
+    "static/media/spAr.png": "/squareRoot/static/media/spAr.087d52aa8a5bf5d3ca9d.png",
+    "static/media/enAn.png": "/squareRoot/static/media/enAn.af32d512716e0e024738.png",
+    "static/media/enAr.png": "/squareRoot/static/media/enAr.e11896765c6273d26d69.png",
     "static/media/3.png": "/squareRoot/static/media/3.59584b7bbc602c6caf09.png",
     "static/media/6.png": "/squareRoot/static/media/6.a001da70217d29703d7d.png",
     "static/media/2.png": "/squareRoot/static/media/2.c37bdcd7ac94c13d10d3.png",
@@ -21,11 +33,11 @@
     "static/media/enter.png": "/squareRoot/static/media/enter.7267641e915499764dbf.png",
     "static/media/b.png": "/squareRoot/static/media/b.041178a5b11cdcc4813f.png",
     "index.html": "/squareRoot/index.html",
-    "main.f7bca342.css.map": "/squareRoot/static/css/main.f7bca342.css.map",
-    "main.9bc634ff.js.map": "/squareRoot/static/js/main.9bc634ff.js.map"
+    "main.455d6109.css.map": "/squareRoot/static/css/main.455d6109.css.map",
+    "main.a1883f31.js.map": "/squareRoot/static/js/main.a1883f31.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7bca342.css",
-    "static/js/main.9bc634ff.js"
+    "static/css/main.455d6109.css",
+    "static/js/main.a1883f31.js"
   ]
 }
