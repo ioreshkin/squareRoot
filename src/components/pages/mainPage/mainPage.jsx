@@ -10,7 +10,18 @@ import InputNum from "../../inputs/inputNum/inputNum";
 import Footer from "../../footer/footer";
 import InputOptions from "../../inputs/inputOptions/inputOptions";
 import NumButton from "../../buttons/numButton";
-import sSrc from "../../../images/back.png"
+import Src1 from "../../../images/1.png"
+import Src2 from "../../../images/2.png"
+import Src3 from "../../../images/3.png"
+import Src4 from "../../../images/4.png"
+import Src5 from "../../../images/5.png"
+import Src6 from "../../../images/6.png"
+import Src7 from "../../../images/7.png"
+import Src8 from "../../../images/8.png"
+import Src9 from "../../../images/9.png"
+import Src0 from "../../../images/0.png"
+import Srcb from "../../../images/b.png"
+import Srcc from "../../../images/c.png"
 import coSrc from "../../../images/co.png";
 import loSrc from "../../../images/lo.png";
 import anSrc from "../../../images/an.png";
@@ -44,6 +55,18 @@ const MainPage = () => {
 
     const changeAcc = (newAcc) => {
       setAcc(newAcc);
+    }
+
+    const printNum = (sym) => {
+      setNum(num + sym);
+    }
+
+    const clearNum = (sym) => {
+      setNum("");
+    }
+
+    const backNum = (sym) => {
+      setNum(num.toString().slice(0,-1))
     }
   
 
@@ -155,25 +178,25 @@ const MainPage = () => {
 
             <div className={cl.numpad}>
               <div className={cl.row}>
-                  <NumButton imgSrc={sSrc}>1</NumButton>  
-                  <NumButton imgSrc={sSrc}>2</NumButton>
-                  <NumButton imgSrc={sSrc}>3</NumButton>
+                  <NumButton imgSrc={Src1} printNum={printNum}>1</NumButton>  
+                  <NumButton imgSrc={Src2} printNum={printNum}>2</NumButton>
+                  <NumButton imgSrc={Src3} printNum={printNum}>3</NumButton>
                 </div>    
               
               <div className={cl.row}>
-                  <NumButton imgSrc={sSrc}>4</NumButton>
-                  <NumButton imgSrc={sSrc}>5</NumButton>
-                  <NumButton imgSrc={sSrc}>6</NumButton>
+                  <NumButton imgSrc={Src4} printNum={printNum}>4</NumButton>
+                  <NumButton imgSrc={Src5} printNum={printNum}>5</NumButton>
+                  <NumButton imgSrc={Src6} printNum={printNum}>6</NumButton>
               </div>
               <div className={cl.row}>
-                  <NumButton imgSrc={sSrc}>7</NumButton>
-                  <NumButton imgSrc={sSrc}>8</NumButton>
-                  <NumButton imgSrc={sSrc}>9</NumButton>
+                  <NumButton imgSrc={Src7} printNum={printNum}>7</NumButton>
+                  <NumButton imgSrc={Src8} printNum={printNum}>8</NumButton>
+                  <NumButton imgSrc={Src9} printNum={printNum}>9</NumButton>
               </div>
               <div className={cl.row}>
-                  <NumButton imgSrc={sSrc}>C</NumButton>
-                  <NumButton imgSrc={sSrc}>0</NumButton>
-                  <NumButton imgSrc={sSrc}>↩</NumButton>
+                  <NumButton imgSrc={Srcc} printNum={clearNum}>C</NumButton>
+                  <NumButton imgSrc={Src0} printNum={printNum}>0</NumButton>
+                  <NumButton imgSrc={Srcb} printNum={backNum}>↩</NumButton>
               </div>
             </div>  
           </div>
