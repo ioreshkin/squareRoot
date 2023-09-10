@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/squareRoot/static/css/main.455d6109.css",
-    "main.js": "/squareRoot/static/js/main.a1883f31.js",
+    "main.css": "/squareRoot/static/css/main.ffd0882f.css",
+    "main.js": "/squareRoot/static/js/main.7f7b9e57.js",
     "static/media/ruAn.png": "/squareRoot/static/media/ruAn.d67ef6e6a6815ad6942a.png",
     "static/media/ruLo.png": "/squareRoot/static/media/ruLo.79836421caf744f34619.png",
     "static/media/ruAr.png": "/squareRoot/static/media/ruAr.5cb6cf69aca9c0d4bbf2.png",
@@ -33,11 +33,11 @@
     "static/media/enter.png": "/squareRoot/static/media/enter.7267641e915499764dbf.png",
     "static/media/b.png": "/squareRoot/static/media/b.041178a5b11cdcc4813f.png",
     "index.html": "/squareRoot/index.html",
-    "main.455d6109.css.map": "/squareRoot/static/css/main.455d6109.css.map",
-    "main.a1883f31.js.map": "/squareRoot/static/js/main.a1883f31.js.map"
+    "main.ffd0882f.css.map": "/squareRoot/static/css/main.ffd0882f.css.map",
+    "main.7f7b9e57.js.map": "/squareRoot/static/js/main.7f7b9e57.js.map"
   },
   "entrypoints": [
-    "static/css/main.455d6109.css",
-    "static/js/main.a1883f31.js"
+    "static/css/main.ffd0882f.css",
+    "static/js/main.7f7b9e57.js"
   ]
 }
