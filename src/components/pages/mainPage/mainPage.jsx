@@ -160,11 +160,11 @@ const MainPage = () => {
               <span>{lang.mainT2}</span>
           </div>
 
-          <InputNum calculate={calculate} setNum={changeNum} num={num}/>
+          <InputNum calculate={calculate} setNum={changeNum} num={num} lang={getLang(langCode)}/>
 
           <div className={cl.calc}>
             <div className={cl.options}>
-                <InputOptions setAcc={changeAcc} setDeg={changeDeg}/>
+                <InputOptions setAcc={changeAcc} setDeg={changeDeg} lang={getLang(langCode)}/>
             </div>
 
             

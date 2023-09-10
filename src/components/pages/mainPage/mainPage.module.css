@@ -16,6 +16,12 @@ nav {
     font-family: sans-serif;
 }
 
+@media (max-width: 768px) {
+    nav {
+        margin-right: -400px;
+    }
+}
+
 nav img {
     width: 200px;
     height: 120px;

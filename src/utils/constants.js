@@ -26,6 +26,10 @@ export const en = {
     code: "en",
     supLink : "https://docs.google.com/forms/d/e/1FAIpQLSdJYGMix3DBwbCi3gw-uhHTUrM0VLeBHuu4G1rB2RXlilJ44Q/viewform",
 
+    rd : "ROOT DEGREE",
+    sa: "SET ACCURACY",
+    st: "Start typing",
+
     an: enAn,
     ar: enAr,
     lo: enLo,
@@ -36,7 +40,7 @@ export const en = {
     infoAbt : "About",
     infoUpd : "Updates",
 
-    mainT1: "Simplify!",
+    mainT1: "Simplify",
     mainT2: "Finding any root!",
     mainT3: "SquareRoot can calculate the following types of roots:",
 
@@ -92,6 +96,10 @@ export const ru = {
     infoSup : "Поддержка",
     infoAbt : "О нас",
     infoUpd : "Обновления",
+
+    rd : "СТЕПЕНЬ КОРНЯ",
+    sa: "УСТАНОВИТЬ ТОЧНОСТЬ",
+    st: "НАЧНИТЕ ВВОДИТЬ",
 
     an: ruAn,
     ar: ruAr,
@@ -158,6 +166,10 @@ export const sp = {
     infoAbt: "Quiénes somos",
     infoUpd: "Actualizaciones",
 
+    rd : "GRADO DE RAÍZ",
+    sa: "PRECISIÓN DE AJUSTE",
+    st: "Empieza a escribir",
+
     an: spAn,
     ar: spAr,
     lo: spLo,
@@ -222,6 +234,10 @@ export const ch = {
     infoSup: "支持",
     infoAbt: "关于我们",
     infoUpd: "更新",
+
+    rd : "根度",
+    sa: "设定精度",
+    st: "开始打字",
 
     an: chAn,
     ar: chAr,
